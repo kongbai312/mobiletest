@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+html {
+  font-size: 5.333333vw;
+}
+body {
+  padding: 0 0.75rem;
+}
+.top {
+  height: 4.375rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top i {
+  color: #999999;
+  font-size: 1rem;
+}
+.top span {
+  color: #24253d;
+  font-size: 1.05rem;
+}
+.top em {
+  color: #707071;
+  font-size: 1rem;
+}
+.banner ul li a img {
+  width: 100%;
+}
+.list01 {
+  height: 6.1rem;
+  margin-top: 1rem;
+}
+.list01 ul {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.list01 ul li {
+  width: 8.175rem;
+  height: 2.6rem;
+  background: pink;
+  border-radius: 10px;
+}
+.list01 ul li a {
+  display: block;
+  height: 100%;
+  line-height: 2.6rem;
+  border-radius: 0.325rem;
+  background-image: linear-gradient(to left, #f97053 56%, #f47866 100%);
+  box-shadow: 0px 5px 8px 0px rgba(187, 187, 187, 0.42);
+  text-decoration: none;
+  color: #fff;
+}
+.list01 ul li a i {
+  margin-left: 0.9rem;
+  margin-right: 0.625rem;
+}
+.list01 ul li a span {
+  font-size: 0.75rem;
+}
+.list01 ul li:nth-of-type(2) a {
+  background-image: linear-gradient(to left, #c657ff 56%, #d484fd 100%);
+}
+.list01 ul li:nth-of-type(3) a {
+  background-image: linear-gradient(to left, #ff3971 56%, #fe497c 100%);
+}
+.list01 ul li:nth-of-type(4) a {
+  background-image: linear-gradient(to left, #1d92ff 56%, #1bc9fb 100%);
+}
+.tit {
+  height: 2.95rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tit h3 {
+  border-left: 0.075rem solid #3a84ff;
+  padding-left: 0.425rem;
+  color: #24253d;
+  font-size: 0.825rem;
+}
+.tit a {
+  font-size: 0.7rem;
+  color: #656565;
+  text-decoration: none;
+}
+.list02 {
+  height: 8.075rem;
+  overflow: scroll;
+}
+.list02 ul {
+  width: 52.075rem;
+  height: 8.075rem;
+  display: flex;
+  justify-content: space-between;
+}
+.list02 ul li {
+  width: 7.2rem;
+  height: 7.075rem;
+  border-radius: 0.325rem;
+  background-color: #ffffff;
+  box-shadow: 0px 5px 11px 0px rgba(182, 182, 182, 0.23);
+  padding: 0.5rem;
+}
+.list02 ul li a {
+  text-decoration: none;
+  color: #24253d;
+}
+.list02 ul li a img {
+  display: block;
+  width: 7.125rem;
+  height: 3.875rem;
+}
+.list02 ul li a span {
+  display: block;
+  margin: 0.25rem 0;
+  font-size: 0.8rem;
+}
+.list02 ul li a p {
+  display: block;
+  height: 1.05rem;
+  font-size: 0.6rem;
+  line-height: 1.05rem;
+  color: #969393;
+}
+.list02 ul li a p img {
+  display: block;
+  height: 1.05rem;
+  width: 1.05rem;
+  float: left;
+  margin-right: 0.375rem;
+}
